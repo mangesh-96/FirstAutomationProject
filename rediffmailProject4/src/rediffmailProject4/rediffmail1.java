@@ -46,8 +46,8 @@ public class rediffmail1 {
 		    FullName.sendKeys("Mangesh B Bhaware");
 		    Thread.sleep(3000);
 		    
-		    WebElement Rediffmailid = driver.findElement(By.xpath("//table[@id='tblcrtac']//tr[7]//input[1]"));
-		    Rediffmailid.sendKeys("mangeshbbs22");  //basic Xpath=(//input[@type='text'])[2]
+		    WebElement rediffmailid = driver.findElement(By.xpath("//table[@id='tblcrtac']//tr[7]//input[1]"));
+		    rediffmailid.sendKeys("mangeshbbs22");  //basic Xpath=(//input[@type='text'])[2]
 		    Thread.sleep(3000);
 		    
 		    WebElement Checkavailability = driver.findElement(By.xpath("//table[@id='tblcrtac']//tr[7]//input[2]"));
